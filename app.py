@@ -5,7 +5,7 @@ app = Flask(__name__)
 USERNAME = "Usuario" and "Gustavo"
 PASSWORD = "1234" and "159753"
 
-
+# decorator
 @app.route('/')
 def login_page():
     return render_template('login.html')
